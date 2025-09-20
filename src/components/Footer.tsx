@@ -6,17 +6,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/alexjohnson",
+      href: "https://github.com/tusharjangade",
       label: "GitHub"
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/alexjohnson",
+      href: "https://linkedin.com/in/tusharjangade",
       label: "LinkedIn"
     },
     {
       icon: Mail,
-      href: "mailto:alex.johnson@example.com",
+      href: "mailto:tushar55jangade@gmail.com",
       label: "Email"
     }
   ];
@@ -35,10 +35,10 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-bold gradient-text hover:opacity-80 transition-opacity duration-200"
             >
-              Alex Johnson
+              Tushar Jangade
             </button>
             <p className="text-muted-foreground mt-2">
-              Senior Full-stack Developer
+              Senior Software Engineer
             </p>
           </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
             <p className="text-muted-foreground flex items-center justify-center md:justify-end gap-2">
               © {currentYear} Made with 
               <Heart className="h-4 w-4 text-red-500 fill-current" />
-              by Alex Johnson
+              by Tushar Jangade
             </p>
           </div>
         </div>

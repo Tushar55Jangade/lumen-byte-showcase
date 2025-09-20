@@ -26,14 +26,14 @@ const Hero = () => {
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Hi, I'm{" "}
-            <span className="gradient-text">Alex Johnson</span>
+            <span className="gradient-text">Tushar Jangade</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground font-light">
-            Senior Full-stack Developer
+            Senior Software Engineer
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Crafting exceptional digital experiences with modern technologies. 
-            Passionate about building scalable solutions that make a difference.
+            8+ years of experience building scalable Java/Spring Boot microservices and React applications. 
+            Proven success in leading teams, automating operations, and optimizing system performance in cloud environments.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ const Hero = () => {
             <Github className="h-6 w-6" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://linkedin.com/in/tusharjangade" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-200 p-2 hover:scale-110 transform"
@@ -73,7 +73,7 @@ const Hero = () => {
             <Linkedin className="h-6 w-6" />
           </a>
           <a 
-            href="mailto:alex@example.com"
+            href="mailto:tushar55jangade@gmail.com"
             className="text-muted-foreground hover:text-primary transition-colors duration-200 p-2 hover:scale-110 transform"
           >
             <Mail className="h-6 w-6" />

@@ -1,43 +1,43 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import project1 from "@/assets/project1.jpg";
-import project2 from "@/assets/project2.jpg";
-import project3 from "@/assets/project3.jpg";
+import tradingPlatform from "@/assets/trading-platform.jpg";
+import b2bCommerce from "@/assets/b2b-commerce.jpg";
+import satelliteSystem from "@/assets/satellite-system.jpg";
 
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Dashboard",
-      description: "A comprehensive dashboard for managing e-commerce operations with real-time analytics, inventory management, and sales tracking. Built with React, TypeScript, and modern UI components.",
-      image: project1,
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Stripe"],
-      role: "Full-stack Developer",
-      problem: "Small businesses needed an affordable, feature-rich e-commerce management solution",
-      result: "Increased operational efficiency by 40% for 200+ businesses",
-      liveUrl: "https://demo.example.com",
-      githubUrl: "https://github.com/example/ecommerce-dashboard"
+      title: "Trading Platform Infrastructure",
+      description: "Critical trading platform infrastructure at Charles Schwab serving 1K+ daily active users with 99.9% uptime SLA. Built 12 Spring Boot microservices and React frontend components with real-time monitoring dashboard.",
+      image: tradingPlatform,
+      technologies: ["Spring Boot", "React", "TypeScript", "Java", "Microservices"],
+      role: "Lead Engineer",
+      problem: "Need for robust, real-time trading infrastructure with high availability",
+      result: "Achieved 99.9% uptime SLA serving 1K+ daily users with automated monitoring",
+      liveUrl: "https://schwab.com",
+      githubUrl: "https://github.com/tusharjangade"
     },
     {
-      title: "FinTech Mobile App",
-      description: "A modern banking application with advanced security features, real-time transactions, and intuitive user experience. Developed for both iOS and Android platforms.",
-      image: project2,
-      technologies: ["React Native", "Node.js", "MongoDB", "JWT", "Plaid API"],
-      role: "Lead Mobile Developer",
-      problem: "Traditional banking apps lacked modern UX and advanced features",
-      result: "Achieved 4.8/5 app store rating with 50k+ downloads",
-      liveUrl: "https://app.example.com",
-      githubUrl: "https://github.com/example/fintech-app"
+      title: "B2B Commerce Platform",
+      description: "Scalable B2B commerce platform at Anheuser-Busch processing 50K+ transactions daily. Developed 8 Java REST APIs using Spring Boot with 200ms average response time and comprehensive logging.",
+      image: b2bCommerce,
+      technologies: ["Java", "Spring Boot", "Oracle", "REST APIs", "Azure DevOps"],
+      role: "Technology Analyst",
+      problem: "High-volume B2B transactions required fast, reliable processing system",
+      result: "Successfully processes 50K+ daily transactions with 200ms response time",
+      liveUrl: "https://anheuser-busch.com",
+      githubUrl: "https://github.com/tusharjangade"
     },
     {
-      title: "AI Task Management",
-      description: "An intelligent task management platform that uses AI to prioritize tasks, suggest optimizations, and automate workflow processes for increased productivity.",
-      image: project3,
-      technologies: ["Next.js", "Python", "OpenAI", "PostgreSQL", "Docker"],
-      role: "Full-stack Developer",
-      problem: "Teams struggled with task prioritization and workflow optimization",
-      result: "Improved team productivity by 35% across 100+ organizations",
-      liveUrl: "https://tasks.example.com",
-      githubUrl: "https://github.com/example/ai-tasks"
+      title: "Satellite Data Management System",
+      description: "Advanced satellite data management system at ISRO processing 500GB of satellite imagery daily. Built with Java and Hibernate, featuring responsive UI and optimized geospatial data storage.",
+      image: satelliteSystem,
+      technologies: ["Java", "Hibernate", "JSP", "Bootstrap", "Database Design"],
+      role: "Software Developer Intern",
+      problem: "Efficient processing and visualization of massive satellite imagery datasets",
+      result: "Successfully processes 500GB daily with optimized data visualization features",
+      liveUrl: "https://isro.gov.in",
+      githubUrl: "https://github.com/tusharjangade"
     }
   ];
 

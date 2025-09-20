@@ -4,13 +4,13 @@ const About = () => {
   const highlights = [
     {
       icon: Code,
-      title: "5+ Years Experience",
-      description: "Building scalable web applications"
+      title: "8+ Years Experience",
+      description: "Building enterprise-grade applications"
     },
     {
       icon: Zap,
-      title: "50+ Projects",
-      description: "Successfully delivered solutions"
+      title: "100+ APIs Built",
+      description: "RESTful microservices at scale"
     },
     {
       icon: Users,
@@ -34,16 +34,15 @@ const About = () => {
                 About <span className="gradient-text">Me</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate full-stack developer with over 5 years of experience 
-                creating innovative digital solutions. My journey in technology started 
-                with a curiosity about how things work, and it has evolved into a career 
-                dedicated to building exceptional user experiences.
+                I'm a Senior Software Engineer with 8+ years of experience building scalable 
+                Java/Spring Boot microservices and React applications. My expertise spans across 
+                enterprise-grade solutions, cloud environments (AWS, Azure, PCF), and leading 
+                high-performing development teams.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I specialize in modern web technologies and love tackling complex 
-                problems that require creative solutions. When I'm not coding, you'll 
-                find me exploring new technologies, contributing to open-source projects, 
-                or mentoring fellow developers.
+                I specialize in automating operations, optimizing system performance, and delivering 
+                high-uptime solutions. My passion lies in solving complex technical challenges and 
+                mentoring fellow engineers to achieve their full potential.
               </p>
             </div>
             
@@ -52,19 +51,19 @@ const About = () => {
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Creating impactful digital experiences</span>
+                  <span>Leading teams to deliver enterprise solutions</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Continuous learning and growth</span>
+                  <span>Automating operations and optimizing performance</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-success rounded-full"></div>
-                  <span>Collaborating with talented teams</span>
+                  <span>Building scalable microservices architecture</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Mentoring and knowledge sharing</span>
+                  <span>Mentoring and developing technical talent</span>
                 </li>
               </ul>
             </div>

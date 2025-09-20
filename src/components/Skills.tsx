@@ -1,39 +1,39 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Backend",
       color: "text-primary",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Vue.js", level: 80 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "JavaScript", level: 95 }
+        { name: "Java (8/11/17)", level: 95 },
+        { name: "Spring Boot", level: 95 },
+        { name: "Microservices", level: 90 },
+        { name: "REST APIs", level: 95 },
+        { name: "Hibernate/JPA", level: 85 },
+        { name: "Python", level: 80 }
       ]
     },
     {
-      title: "Backend",
+      title: "Frontend",
       color: "text-accent",
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "GraphQL", level: 75 },
-        { name: "Redis", level: 70 }
+        { name: "React", level: 85 },
+        { name: "TypeScript", level: 85 },
+        { name: "JavaScript", level: 90 },
+        { name: "Angular 8", level: 80 },
+        { name: "HTML5/CSS3", level: 85 },
+        { name: "Bootstrap", level: 80 }
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Database & Cloud",
       color: "text-success",
       skills: [
-        { name: "Docker", level: 85 },
-        { name: "AWS", level: 80 },
-        { name: "Git", level: 95 },
-        { name: "Figma", level: 75 },
-        { name: "Jest", level: 85 },
-        { name: "CI/CD", level: 80 }
+        { name: "Oracle", level: 90 },
+        { name: "PostgreSQL", level: 85 },
+        { name: "MongoDB", level: 80 },
+        { name: "AWS", level: 85 },
+        { name: "Azure", level: 80 },
+        { name: "SQL/HQL", level: 90 }
       ]
     }
   ];
@@ -101,9 +101,10 @@ const Skills = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "React", "TypeScript", "Node.js", "Python", "PostgreSQL", "MongoDB",
-              "AWS", "Docker", "Kubernetes", "GraphQL", "Redux", "Express.js",
-              "Next.js", "Vue.js", "Tailwind CSS", "Material-UI", "Figma", "Git"
+              "Java", "Spring Boot", "React", "TypeScript", "Python", "Oracle",
+              "PostgreSQL", "MongoDB", "AWS", "Azure", "Microservices", "REST APIs",
+              "Hibernate", "JPA", "Angular", "Git", "Bitbucket", "CI/CD", "JUnit", "Mockito",
+              "SonarQube", "Splunk", "JIRA", "Bamboo", "Maven", "Swagger"
             ].map((tech, index) => (
               <span 
                 key={tech}
