@@ -49,7 +49,7 @@ const Experience = () => {
     {
       title: "Full Stack Developer",
       company: "People Tech",
-      location: "Remote",
+      location: "Redmond, WA",
       period: "September 2019 – April 2020", 
       description: "Built RESTful APIs and Angular frontend for Ohio Department of Education, serving students and educators with high performance web applications.",
       achievements: [
