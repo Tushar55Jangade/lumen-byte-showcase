@@ -5,7 +5,7 @@ const Experience = () => {
     {
       title: "Senior Software Engineer",
       company: "Charles Schwab",
-      location: "St. Louis, MO",
+      location: "Dallas, TX",
       period: "September 2022 – Present",
       description: "Leading team of 5 engineers in developing and maintaining critical trading platform infrastructure, conducting code reviews and monitoring and mentoring offshore teams and tasks effectively.",
       achievements: [
